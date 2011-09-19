@@ -31,4 +31,11 @@ top_ten()
   history | tr -s ' ' | cut -d ' ' -f 5 |  sort | uniq -c | sort | tail -n 10
 }
 
+hello()
+{
+  greeting="$*"
+  echo "hello ${greeting}"
+}
+
+
 export PATH=$PATH:/Users/twer/android-sdk-mac_x86/tools:/Users/twer/android-sdk-mac_x86/platform-tools:/usr/local/mysql/bin/
