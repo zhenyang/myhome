@@ -1,4 +1,4 @@
 # !/bin/bash
 
-ln -svb $PWD/.bashrc ~
+ln -sv $PWD/.bashrc ~
 
